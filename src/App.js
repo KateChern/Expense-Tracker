@@ -19,12 +19,13 @@ function App() {
         <div className='income-transaction-container'>
           <IncomeExpences />
           <Budgets />
-          <Chart />
+          <div className='chartComponent'>
+            <Chart />
+          </div>
+         
           <TransactionForm />
         </div>
-          <div className='chartComponent'>
-            
-          </div>
+         
       </div>
        
       </header>
