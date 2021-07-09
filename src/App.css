@@ -417,6 +417,7 @@ canvas {
   } 
   .transaction-form {
     margin-left: 10px;
+    padding: 10px 0 10px 0;
   }
   
   .input-transaction {
@@ -496,6 +497,9 @@ canvas {
   
     width: 102vmin;
   }
+  /* .input-section {
+    padding: 10px 0;
+  } */
   .input-transaction {
    
     width: 22vmin;
