@@ -415,6 +415,21 @@ canvas {
     justify-content: center;
     background-color:#e2e2e2 ;
   } 
+  .transaction-form {
+    
+  }
+  .input-section {
+    
+  }
+  .input-transaction {
+   
+    width: 22vmin;
+    /* padding: 5px 6px; */
+    border-radius: 6px;
+    /* border: solid 1px #141c3a; */
+    font-size: 11px;
+   
+  }
   .removeButton {
     margin: 0.5px 5px;
   }
@@ -441,6 +456,7 @@ canvas {
   div.new-transaction {
   
     width: 100%;
+    margin-left: -10px;
   }
   .category-wrapper {
     width: 84vmin;
@@ -474,12 +490,21 @@ canvas {
 
 @media only screen and (max-width: 425px) {
   .income-transaction-container {
-    top: 38vmin;
-    margin-right: -17px;
-    margin-left: -12px;
+    top: 34vmin;
+    margin-right: -20px;
+    margin-left: -20px;
     justify-content: center;
     background-color:#e2e2e2 ;
   } 
+  div.new-transaction {
+  
+    width: 102vmin;
+  }
+  .balance-income-expense {
+    width: 99vmin;
+    margin: 0;
+  
+  }
   .income-button {
     font-size: calc(6px + 1.5vmin);
     width: 50px;
@@ -490,7 +515,7 @@ canvas {
     padding: 0;
   }
   .category-wrapper {
-    width: 85vmin;
+    width: 87vmin;
   }
   .money-minus, .money-plus {
     margin: 4px 0 10px 0;
@@ -516,22 +541,23 @@ canvas {
     justify-content: space-evenly;
   }
   .income-exp-container {
-    width: 98vmin;
+    width: 100vmin;
     margin-left: -1px;
+    /* justify-content: space-evenly; */
   }
   .income-borders, .expense-borders {
-    width: 49vmin;
+    width: 50vmin;
   }
 
   .app-title {
-    width: 98vmin;
-    margin-left: -15px;
+    width: 100vmin;
+    margin-left: -20px;
     padding-right: 10px;
   }
 
   .balance {
-     width: 98vmin;
-    margin-left: -15px;
+     width: 103vmin;
+    margin-left: -30px;
 }
 
 }
