@@ -1,7 +1,7 @@
 import React  from "react";
 import { useSelector} from 'react-redux';
 import { selectIncome } from '../features/incomeExpence/incomeExpenceSlice';
-import sales from '../sales.jpeg';
+// import sales from '../sales.jpeg';
 
 
 export const Balance = () => {
@@ -16,7 +16,7 @@ export const Balance = () => {
       
         <div className='app-title'>
            
-            <img src={sales}/>
+            {/* <img src={sales}/> */}
         
             <h1 className='appName'>Expense Tracker</h1>
         </div>
