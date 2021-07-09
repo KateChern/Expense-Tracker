@@ -472,7 +472,7 @@ canvas {
   }
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 425px) {
   .income-transaction-container {
     top: 38vmin;
     margin-right: -17px;
@@ -489,6 +489,9 @@ canvas {
   .income {
     padding: 0;
   }
+  .category-wrapper {
+    width: 85vmin;
+  }
   .money-minus, .money-plus {
     margin: 4px 0 10px 0;
   }
@@ -499,7 +502,10 @@ canvas {
   .removeButton {
     padding: 2px 4px;
   }
- 
+  .update-button {
+    padding: 0;
+    width: 55px;
+  }
   .new-transaction-list {
      width:85vmin;
   }
