@@ -497,9 +497,10 @@ canvas {
   
     width: 102vmin;
   }
-  /* .input-section {
+  .input-section {
     padding: 10px 0;
-  } */
+    display: block;
+  }
   .input-transaction {
    
     width: 22vmin;
