@@ -493,12 +493,13 @@ canvas {
     justify-content: center;
     background-color:#e2e2e2 ;
   } 
+  :root {
+    background-color:#e2e2e2 ;
+  }
   div.new-transaction {
-  
     width: 102vmin;
   }
   .input-section {
-    /* padding: 10px 0; */
     display: block;
     width: 25vmin;
   }
@@ -551,7 +552,7 @@ canvas {
   .income-exp-container {
     width: 100vmin;
     margin-left: -1px;
-    /* justify-content: space-evenly; */
+   
   }
   .income-borders, .expense-borders {
     width: 50vmin;
