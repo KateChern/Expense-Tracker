@@ -416,17 +416,13 @@ canvas {
     background-color:#e2e2e2 ;
   } 
   .transaction-form {
-    
+    margin-left: 10px;
   }
-  .input-section {
-    
-  }
+  
   .input-transaction {
    
     width: 22vmin;
-    /* padding: 5px 6px; */
     border-radius: 6px;
-    /* border: solid 1px #141c3a; */
     font-size: 11px;
    
   }
@@ -500,15 +496,21 @@ canvas {
   
     width: 102vmin;
   }
+  .input-transaction {
+   
+    width: 22vmin;
+    padding: 2px 3px;
+   
+  }
   .balance-income-expense {
     width: 99vmin;
     margin: 0;
   
   }
   .income-button {
-    font-size: calc(6px + 1.5vmin);
-    width: 50px;
-    font-weight: 500;
+    font-size: calc(6px + 1vmin);
+    width: 70px;
+    font-weight: 550;
     padding: 0;
   }
   .income {
