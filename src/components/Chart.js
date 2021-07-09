@@ -1,10 +1,10 @@
 import React from 'react' ;
-import {Bar, Line, Pie, Doughnut} from 'react-chartjs-2';
+import {Doughnut} from 'react-chartjs-2';
 import { selectBudgets } from '../features/budgets/budgetsSlice';
 import {useSelector} from 'react-redux';
 import {selectFlattenedTransactions} from '../features/transactions/transactionsSlice'
 
-export const Chart = ({budget}) => {
+export const Chart = () => {
     const budgets = useSelector(selectBudgets);
     const transactions = useSelector(selectFlattenedTransactions);
 

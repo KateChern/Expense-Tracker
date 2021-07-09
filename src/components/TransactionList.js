@@ -5,7 +5,7 @@ import {Transactions}  from './Transaction'
 export const TransactionList = ({transactions, budget}) => {
  
     let list =  [];
- transactions.filter(tr => (tr.category === budget.category) ? list.push(tr): 0)
+     transactions.filter(tr => (tr.category === budget.category) ? list.push(tr): 0)
 
 
     return (

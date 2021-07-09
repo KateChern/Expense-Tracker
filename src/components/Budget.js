@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {useDispatch, useSelector} from 'react-redux';
-import {editBudget, updatemoneySpent} from '../features/budgets/budgetsSlice';
+import {editBudget} from '../features/budgets/budgetsSlice';
 import { TransactionList } from './TransactionList';
 import {selectFlattenedTransactions} from '../features/transactions/transactionsSlice'
 

@@ -12,22 +12,19 @@ function App() {
     <div className="App">
       <header className="App-header">
                 
-      <div  className='app-main-container'>
-        <div className ="container">
-          <Balance />
-        </div>
-        <div className='income-transaction-container'>
-          <IncomeExpences />
-          <Budgets />
-          <div className='chartComponent'>
-            <Chart />
+        <div  className='app-main-container'>
+          <div className ="container">
+            <Balance />
           </div>
-         
-          <TransactionForm />
+          <div className='income-transaction-container'>
+            <IncomeExpences />
+            <Budgets />
+            <div className='chartComponent'>
+              <Chart />
+            </div>
+            <TransactionForm />
+          </div>
         </div>
-         
-      </div>
-       
       </header>
     </div>
   );

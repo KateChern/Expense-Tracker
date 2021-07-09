@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { updateIncome } from '../features/incomeExpence/incomeExpenceSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectIncome } from '../features/incomeExpence/incomeExpenceSlice';
-import { Balance } from './balance';
 import { selectBudgets } from '../features/budgets/budgetsSlice';
 
 export function IncomeExpences () {
@@ -25,7 +24,7 @@ export function IncomeExpences () {
         dispatch(updateIncome(newValue));
         setAmount('');
     }
-    // const className = newExpense > 0 ? 'positive' : 'negative'
+    
     
 
 
