@@ -3,9 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 ## Expense-Tracker
-In this project I gathered and developed requirements for a responsive React application using Redux to manage its state. 
+In this project I gathered and developed requirements for a React application with responsive design using Redux to manage its state. 
 
-The main objectif was to develope custom functionality in React to manage balance, income, and expenses to help with budgeting
+The main objectif was to develope custom functionality in React to manage balance, income, expenses and transactions to help with budgeting
 
 
 ### `npm start`
